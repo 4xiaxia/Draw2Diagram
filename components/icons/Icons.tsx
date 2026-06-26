@@ -12,7 +12,7 @@ import {
     LuCircle,
     LuChevronDown,
     LuDownload,
-    LuGrid,
+    LuGrid3X3,
     LuMaximize,
     LuType,
     LuPen,
@@ -69,7 +69,7 @@ export const SunIcon = ({ className }: { className?: string }) => <LuSun {...ico
 export const MoonIcon = ({ className }: { className?: string }) => <LuMoon {...iconProps(className)} />;
 
 // Background Icons
-export const GridIcon = ({ className }: { className?: string }) => <LuGrid {...iconProps(className)} />;
+export const GridIcon = ({ className }: { className?: string }) => <LuGrid3X3 {...iconProps(className)} />;
 export const ShapesIcon = ({ className }: { className?: string }) => <LuShapes {...iconProps(className)} />;
 
 // Custom SVG icon for transparency, retained for its specific design.
